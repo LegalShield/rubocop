@@ -1,26 +1,38 @@
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'bin/**/*'
+
+Rails:
+  Enabled: true
+
+Documentation:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Enabled: false
+
+Security:
+  Enabled: true
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
-
-Documentation:
-  Enabled: false
-
-Style/FrozenStringLiteralComment:
-  EnforcedStyle: never
-
-Metrics/MethodLength:
-  Enabled: false
-
-Style/ClassAndModuleChildren:
-  EnforcedStyle: compact
-
-Metrics/LineLength:
-  Max: 120
-
-Metrics/AbcSize:
-  Enabled: false
-
-Security:
-  Enabled: true
