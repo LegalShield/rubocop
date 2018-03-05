@@ -13,6 +13,9 @@ Documentation:
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
 Metrics/AbcSize:
   Enabled: false
 
