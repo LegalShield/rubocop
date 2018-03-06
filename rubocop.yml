@@ -16,6 +16,12 @@ Layout/MultilineMethodCallIndentation:
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
+Layout/IndentHash:
+  EnforcedStyle: consistent
+
 Metrics/AbcSize:
   Enabled: false
 
@@ -24,6 +30,12 @@ Metrics/LineLength:
 
 Metrics/MethodLength:
   Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
 
 Security:
   Enabled: true
@@ -39,3 +51,6 @@ Style/HashSyntax:
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+
+Style/NumericLiterals:
+  Enabled: false
