@@ -34,6 +34,11 @@ Metrics/MethodLength:
 Metrics/BlockLength:
   Enabled: false
 
+Metrics/ParameterLists:
+  Only:
+      - '/app/workers/invitation_worker.rb'
+  Enabled: false
+
 Naming/VariableNumber:
   EnforcedStyle: snake_case
 
