@@ -67,3 +67,8 @@ Rails/SkipsModelValidations:
     - update_column
     - update_columns
     - update_counters
+
+Metrics/ClassLength:
+  Enabled: true
+  Exclude:
+    - 'app/services/user_service.rb'
