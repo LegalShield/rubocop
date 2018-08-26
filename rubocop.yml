@@ -56,6 +56,9 @@ Style/StringLiterals:
 Style/NumericLiterals:
   Enabled: false
 
+Style/RescueStandardError:
+  EnforcedStyle: implicit
+
 Rails/HasAndBelongsToMany:
   Enabled: false
 
