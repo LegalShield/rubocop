@@ -17,7 +17,7 @@ Layout/MultilineMethodCallIndentation:
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
 Layout/IndentHash:
@@ -48,7 +48,7 @@ Style/FrozenStringLiteralComment:
   EnforcedStyle: never
 
 Style/HashSyntax:
-  EnforcedStyle: no_mixed_keys
+  EnforcedStyle: hash_rockets
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
