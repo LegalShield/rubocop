@@ -20,7 +20,7 @@ Layout/AlignParameters:
 Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
 
 Metrics/AbcSize:
