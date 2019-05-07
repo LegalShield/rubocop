@@ -59,6 +59,9 @@ Style/NumericLiterals:
 Rails/HasAndBelongsToMany:
   Enabled: false
 
+Rails/ReflectionClassName:
+  Enabled: false
+
 Rails/SkipsModelValidations:
   Blacklist:
     - decrement!
