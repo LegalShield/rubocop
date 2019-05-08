@@ -17,10 +17,10 @@ Layout/MultilineMethodCallIndentation:
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
 
 Metrics/AbcSize:
@@ -48,7 +48,7 @@ Style/FrozenStringLiteralComment:
   EnforcedStyle: never
 
 Style/HashSyntax:
-  EnforcedStyle: no_mixed_keys
+  EnforcedStyle: hash_rockets
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
@@ -57,6 +57,9 @@ Style/NumericLiterals:
   Enabled: false
 
 Rails/HasAndBelongsToMany:
+  Enabled: false
+
+Rails/ReflectionClassName:
   Enabled: false
 
 Rails/SkipsModelValidations:
