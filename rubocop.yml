@@ -1,3 +1,6 @@
+require:
+  - rubocop-rails
+
 AllCops:
   Exclude:
     - 'db/**/*'
@@ -5,29 +8,29 @@ AllCops:
     - 'bin/**/*'
     - 'node_modules/**/*'
 
-Rails:
-  Enabled: true
-
-Documentation:
+Style/Documentation:
   Enabled: false
+
+Style/FormatStringToken:
+  Enabled: false 
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
 
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
+
+Layout/LineLength:
+  Max: 120
 
 Metrics/AbcSize:
   Enabled: false
-
-Metrics/LineLength:
-  Max: 120
 
 Metrics/MethodLength:
   Enabled: false
@@ -56,6 +59,12 @@ Style/StringLiterals:
 Style/NumericLiterals:
   Enabled: false
 
+Style/FloatDivision:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false
+
 Rails/HasAndBelongsToMany:
   Enabled: false
 
@@ -74,3 +83,9 @@ Rails/SkipsModelValidations:
     - update_column
     - update_columns
     - update_counters
+
+Rails/FilePath:
+  EnforcedStyle: arguments
+
+Rails/RakeEnvironment:
+  Enabled: false
