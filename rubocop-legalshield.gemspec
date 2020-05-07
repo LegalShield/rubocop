@@ -13,6 +13,9 @@ Gem::Specification.new do |s|
 
   s.files = %w[default.yml rails.yml rubocop.yml]
 
+  s.add_development_dependency "rake", "~> 12.3.3"
+  s.add_development_dependency "rubygems-tasks", "~> 0.2.5"
+
   s.add_dependency "rubocop", "~> 0.79.0"
   s.add_dependency "rubocop-performance", "~> 1.5.2"
   s.add_dependency "rubocop-rails", "~> 2.4.2"
