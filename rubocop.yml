@@ -1,0 +1,4 @@
+# This is temporary, some of our projects are hardcoded to use this file
+# directly, once they're updated to use the gem, this should go away.
+inherit_from:
+  - default.yml
