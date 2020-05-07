@@ -11,10 +11,10 @@ Gem::Specification.new do |s|
   s.metadata["allowed_push_hosts"] = "https://rubygems.pkg.github.com"
   s.metadata["github_repo"] = "ssh://github.com/legalshield/rubocop-config"
 
-  s.files = ["rubocop.yml"]
+  s.files = %w[default.yml rails.yml rubocop.yml]
 
   s.add_dependency "rubocop", "~> 0.79.0"
-  s.add_dependency "rubocop-performance"
-  s.add_dependency "rubocop-rails"
-  s.add_dependency "rubocop-rspec"
+  s.add_dependency "rubocop-performance", "~> 1.5.2"
+  s.add_dependency "rubocop-rails", "~> 2.4.2"
+  s.add_dependency "rubocop-rspec", "~> 1.39.0"
 end
