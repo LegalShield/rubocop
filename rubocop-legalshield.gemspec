@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.name = "rubocop-legalshield"
-  s.version = "0.0.2"
+  s.version = "0.0.3"
   s.summary = "LegalShield's Ruby Style Guide"
 
   s.author = "LegalShield Engineering"
@@ -14,7 +14,6 @@ Gem::Specification.new do |s|
   s.files = %w[default.yml rails.yml rubocop.yml]
 
   s.add_development_dependency "rake", "~> 12.3.3"
-  s.add_development_dependency "rubygems-tasks", "~> 0.2.5"
 
   s.add_dependency "rubocop", "~> 0.79.0"
   s.add_dependency "rubocop-performance", "~> 1.5.2"
