@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email = "dudleyflanders@legalshieldcorp.com"
   s.homepage = "https://github.com/LegalShield/rubocop-config"
 
-  s.metadata["allowed_push_host"] = "https://rubygems.pkg.github.com"
+  s.metadata["allowed_push_host"] = "https://rubygems.pkg.github.com/legalshield"
   s.metadata["github_repo"] = "ssh://github.com/legalshield/rubocop-config"
 
   s.files = %w[default.yml rails.yml rubocop.yml]
